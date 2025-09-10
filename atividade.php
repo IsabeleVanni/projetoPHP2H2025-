@@ -1,15 +1,22 @@
 <?php 	
+$val1= 2;
+$val2= 3;
+$val3= 1;
 
-	$val1= 0;
-	$val2= 10;
-	$soma = $val1 + $val2;
+if ($val1 < $val2){
+	if ($val3 > $val2);
+echo(" $val3, $val2 e $val1");
+}
 
-	if ($soma > 20) {
-		$soma= $soma + 8;
-	}
-	else if($soma <= 20){
-		$soma = $soma - 5;
-	}
-  echo ("Os valores escolhidos foram: $val1 e $val2 </br>");
-  echo ("O valor final é: $soma");
+else if ($val2 < $val1){
+	if ($val3 > $val1);
+	echo(" $val1, $val2 e $val3");
+}
+
+else if ($val3 < $val1){
+	if ($val2 > $val1);
+	echo("$val2, $val1 e $val3");
+}
+
  ?>
+
