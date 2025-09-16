@@ -1,4 +1,4 @@
-<?php 
+<?php /* 
 
 // ATIVIDADE 1
 
@@ -34,8 +34,10 @@ else{
 echo("O $valor não é divisivel pelos números 10, 5 e 2!");
 }
 
-// ATIVIDADE 3
+?>
 
+// ATIVIDADE 3
+<?php
 $nome="Izzy";
 $sexo= "Feminino";
 $idade= 34;
@@ -46,6 +48,32 @@ echo("$nome: ACEITA");
 else{
 echo("$nome: NÂO ACEITA");
 }
+?>
 
-
+// ATIVIDADE 4
+<?php
+$n1= 1; 
+$n2= 2;
+$n3= 3;
+ 
+if ($n1 >= $n2 && $n1 >= $n3){
+	if($n2 >= $n3){
+		echo "$n1, $n2 e $n3";
+} 	else {
+	echo "$n1,$n3,$n2";
+}
+}elseif ($n2 >= $n1 && $n2 >= $n3){
+	if ($n1 >= $n3) {
+		echo "$n2,$n1,$n3";
+} 	else {
+	echo "$n2,$n3,$n1";
+}}
+else{
+ if ($n1 >= $n2) {
+ 	echo "$n3,$n1,$n2";
+ } else{
+ 	echo "$n3,$n2,$n1";
+ }
+}
+?> */
 ?>
